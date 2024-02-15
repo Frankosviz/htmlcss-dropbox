@@ -31,17 +31,12 @@ body {
 .container-big {
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid black;
 }
 
 .container-small {
     max-width: 1000px;
     margin: 0 auto;
     border: 1px solid black;
-}
-
-.debug {
-    border: 1px solid red;
 }
 
 /* flex - utility */
@@ -101,7 +96,7 @@ header ul li>a{
 /* first-section */
 
 #bg-azure-hero {
-    background-color: var(--color-square3);
+    background-color: var(--color-suqare6);
 
 }
 
@@ -110,14 +105,28 @@ header ul li>a{
     color: white;
     cursor: pointer;
     max-width: max-content;
+    padding: 10px;
 }
 
+#hero > h1{
+    font-size: 8vh;
+    font-weight: bold;
+    padding-top: 40px;
+}
 #mini-container-hero {
     max-width: 100%;
 }
 
 .left-hero{
     max-width: 40%;
+    position: relative;
+    top: 60px;
+}
+
+.left-hero > p{
+    margin: 0 0 50px 0;
+    color: black;
+    font-weight: bold;
 }
 
 .right-hero{
@@ -126,7 +135,14 @@ header ul li>a{
 
 .container-img-jumbo > img {
     max-width: 100%;
+    position: relative;
+    top: 60px;
+}
 
+.left-hero p > i {
+    font-size: 50px;
+    font-weight:900;
+    padding-bottom: 20px;
 }
 
 
