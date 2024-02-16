@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    min-width: 1200px;
 }
 
 :root {
@@ -36,8 +37,58 @@ body {
 .container-small {
     max-width: 1000px;
     margin: 0 auto;
-    border: 1px solid black;
 }
+
+.bg-blue-button {
+    background-color: var(--color-color-button);
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+}
+
+/* .width-80 {
+    width: 80%;
+    align-content: center;
+} */
+
+.border-gray {
+    border: 1px solid gray;
+}
+
+.small-border {
+    border-bottom: 1px solid gray;
+    padding-bottom: 50px;
+}
+
+.padding-top {
+    padding-top: 100px;
+}
+
+.padding-bottom-50{
+    padding-bottom: 50px;
+}
+
+.padding-top-bottom {
+    padding: 50px 0 50px
+}
+
+.padding-20 {
+    padding: 20px;
+}
+
+.margin-right {
+    margin-right: 60px;
+}
+
+.margin-left{
+    margin-left: 18px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
 
 /* flex - utility */
 
@@ -67,8 +118,10 @@ nav {
 .navfixed {
     width: 100%;
     position: fixed;
+    left: 0;
+    top: 0;
     background-color: var(--color-main-bg);
-    z-index: 1001;
+    z-index: 3000;
 }
 
 header {
@@ -101,18 +154,15 @@ header ul li>a{
 
 /* main */
 
-/* first-section */
+/* first-section jambo*/
 
 #bg-azure-hero {
     background-color: var(--color-suqare6);
 }
 
 #bg-blue-2 {
-    background-color: var(--color-color-button);
     color: white;
-    cursor: pointer;
-    max-width: max-content;
-    padding: 10px;
+    width: max-content;
 }
 
 #hero > h1{
@@ -155,6 +205,13 @@ header ul li>a{
 
 /* second section */
 
+.searching-plan {
+    margin-bottom: 50px;
+}
+
+label {
+    padding: 0 50px 0 0;
+}
 
 .searching-plan > h1{
     padding-top: 100px;
@@ -165,4 +222,39 @@ header ul li>a{
     padding-top: 40px;
 }
 
+.single {
+    border-bottom: 1px solid Gray;
+    text-align: center;
+}
 
+.padding-bottom-50 ul > li {
+    padding: 10px 0 10px 0;
+}
+
+.padding-top ul > li{
+    padding: 10px 0 10px 0;
+}
+
+#dad-container {
+    max-width: 100%;
+}
+
+.container-prices {
+    max-width: calc(100% / 3 - 30px);
+}
+
+/* third section */
+
+.title {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.enterprise-left {
+    max-width: 60%;
+}
+
+.enterprise-right {
+    max-width: 40%;
+}
