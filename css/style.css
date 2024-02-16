@@ -111,6 +111,10 @@ body {
     align-content: center;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 /* header */
 
 nav {
@@ -314,16 +318,26 @@ label {
 
 .vh8-title > h2 {
     font-size: 4vh;
+    margin-top: 100px;
+    margin-bottom: 40px;
 }
 
-.card-father {
-    width: 100%;
+.card-container {
+    max-width: 100%;
 }
 
-.img-card {
-    max-width: 33%;
+.card > img {
+    max-width: 100%;
 }
 
 .card {
-    width: 33%;
+    width: calc(100% / 3);
+    padding: 20px;
 }
+
+.card > p {
+    margin-top: 40px;
+}
+
+/* sixth section */
+
