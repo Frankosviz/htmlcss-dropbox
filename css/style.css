@@ -353,3 +353,17 @@ label {
 
 /* seventh section */
 
+.container-dad {
+    width: 100%;
+}
+
+.square-divided {
+    width: calc(100% / 3);
+}
+
+.square {
+    width: 50%;
+    background-color: #d5001f;
+    aspect-ratio: 1/1;
+    border: 1px solid gray;
+}
