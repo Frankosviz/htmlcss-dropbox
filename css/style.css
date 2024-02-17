@@ -103,6 +103,10 @@ body {
     display: flex;
 }
 
+.space-around {
+    justify-content: space-around;
+}
+
 .justify-content {
     justify-content: center;
 }
@@ -421,3 +425,44 @@ label {
 #bg-gray {
     background-color: #F5F5F5;
 }
+
+/* eight section */
+
+#button-white {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.vh8-title > h2 {
+    font-size: 4vh;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: var(--color-square2);
+}
+
+.bg-azure{
+    background-color: var(--color-color-contrast);
+}
+
+/* ninth section */
+
+.vh4-questions {
+    margin: 100px 0 50px 0;
+    font-size: 4vh;
+    padding-bottom: 30px;
+}
+
+.questions {
+    padding: 30px 0 30px 0;
+    border-bottom: 1px solid black;
+}
+
+#bord-top {
+    border-top: 1px solid black;
+}
+
+
+
