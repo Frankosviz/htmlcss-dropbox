@@ -365,5 +365,59 @@ label {
     width: 50%;
     background-color: #d5001f;
     aspect-ratio: 1/1;
-    border: 1px solid gray;
+    position: relative;
+}
+
+.square > img {
+    max-width: 50%;
+    filter: invert(100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.des-title {
+    padding: 50px;
+}
+
+.border-top {
+    border-top: 1px solid gray;
+    padding-top: 50px;
+}
+
+#designit {
+    background-color: var(--color-main-square1);
+}
+
+#clear {
+    background-color: var(--color-square2);
+}
+
+#hearts {
+    background-color: var(--color-square3);
+}
+
+#lonely {
+    background-color: var(--color-square4);
+}
+
+#topps {
+    background-color: var(--color-square5);
+}
+
+#university{
+    background-color: var(--color-suqare6);
+}
+
+#bycicle {
+    background-color: var(--color-squate7);
+}
+
+#arizona {
+    background-color: var(--color-square8);
+}
+
+#bg-gray {
+    background-color: #F5F5F5;
 }
