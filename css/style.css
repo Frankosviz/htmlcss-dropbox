@@ -64,6 +64,9 @@ body {
     padding-bottom: 150px;
 }
 
+.padding-bottom-30 {
+    padding-bottom: 30;
+}
 .padding-bottom-50{
     padding-bottom: 50px;
 }
@@ -121,6 +124,12 @@ body {
 
 .flex-wrap {
     flex-wrap: wrap;
+}
+
+.d-flex-gap{
+    display: flex;
+    gap: 30px;
+
 }
 
 /* header */
@@ -430,7 +439,6 @@ label {
 
 #button-white {
     background-color: white;
-    border: 1px solid black;
     color: black;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -466,9 +474,31 @@ label {
 
 /* footer */
 
-.headfooter {
+footer {
+    margin-top: 150px;
+    background-color: var(--color-footer-bg);
+    column-gap: 30px;
     color: white;
-    
 }
 
+footer div ul > li {
+    padding: 10px 0 10px 0;
+    color: white;
+    cursor: pointer;
+}
 
+footer div ul > .padding-bottom-50 {
+    font-size: 25px;
+}
+
+#border-bottom {
+    border-bottom: 1px solid white;
+    padding-bottom: 150px;
+}
+
+.end {
+    padding-left: 40px;
+    color: gray;
+    cursor: pointer;
+    padding-top: 20px;
+}
