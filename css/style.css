@@ -215,7 +215,7 @@ header ul li>a:hover{
     display: none;
 }
 
-.vertical-list:hover + .payment-list {
+nav:hover .payment-list {
     display: block;
 }
 
@@ -542,7 +542,7 @@ label {
     display: none;
 }
 
-.hide:hover + .appears-answer {
+.questions:hover .appears-answer {
     display: block;
     padding: 20px 0;
     color: var(--color-square5);
