@@ -10,6 +10,14 @@ body {
     min-width: 1200px;
 }
 
+.fa-caret-down {
+    cursor: pointer;
+}
+
+.fa.caret-down:hover{
+
+}
+
 :root {
 	--color-footer-bg: #000000;
 	--color-main-bg: #ffffff;
@@ -62,6 +70,10 @@ body {
 
 .padding-top {
     padding-top: 100px;
+}
+
+.padding-top-10 {
+    padding-top: 10px;
 }
 
 .padding-bottom-150 {
@@ -129,12 +141,6 @@ body {
 
 .flex-wrap {
     flex-wrap: wrap;
-}
-
-.d-flex-gap{
-    display: flex;
-    gap: 30px;
-
 }
 
 /* header */
@@ -498,6 +504,16 @@ label {
 
 #bord-top {
     border-top: 1px solid black;
+}
+
+.appears-answer {
+    display: none;
+}
+
+.hide:hover + .appears-answer {
+    display: block;
+    padding: 20px 0;
+    color: var(--color-square5);
 }
 
 /* footer */
