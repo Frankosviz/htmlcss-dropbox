@@ -10,16 +10,8 @@ body {
     min-width: 1200px;
 }
 
-.fa-caret-down {
-    cursor: pointer;
-}
-
 a:hover {
     color: rgba(0, 0, 0, 0.5);
-}
-
-.fa.caret-down:hover{
-
 }
 
 :root {
@@ -538,6 +530,10 @@ label {
     border-top: 1px solid black;
 }
 
+.fa-caret-down {
+    cursor: pointer;
+}
+
 .appears-answer {
     display: none;
 }
@@ -586,3 +582,4 @@ footer div ul > .padding-bottom-50 {
 footer div ul li:hover {
     color: red;
 }
+
